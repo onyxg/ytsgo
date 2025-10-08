@@ -1,6 +1,6 @@
 // Package ytsgo is a client for YTS.LT API.
-// Details can be found at https://yts.lt/api
-package ytsgo
+// Details can be found at https://yts.mx/api
+package ytsgoclient
 
 import (
 	"encoding/json"
@@ -12,7 +12,7 @@ import (
 
 const (
 	// DefaultBaseURL is a default URL used for queries.
-	DefaultBaseURL = "https://yts.lt/api/v2/"
+	DefaultBaseURL = "https://yts.mx/api/v2/"
 	statusOK       = "ok"
 )
 
@@ -220,6 +220,7 @@ func (c *Client) ListMovies(opts ...ListMoviesOption) (*Movies, error) {
 	if err != nil {
 		return nil, err
 	}
+
 	rsp, err := c.httpClient.Do(req)
 	if err != nil {
 		return nil, err

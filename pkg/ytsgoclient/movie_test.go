@@ -1,4 +1,4 @@
-package ytsgo
+package ytsgoclient
 
 import (
 	"encoding/json"

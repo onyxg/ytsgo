@@ -1,5 +1,5 @@
-module github.com/qopher/ytsgo
+module github.com/onyxg/ytsgo
 
-go 1.12
+go 1.25
 
-require github.com/google/go-cmp v0.3.1
+require github.com/google/go-cmp v0.7.0

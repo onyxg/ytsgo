@@ -1,4 +1,4 @@
-package ytsgo
+package ytsgoclient
 
 // File movie.go contains data structures and methods for movie parsing.
 
